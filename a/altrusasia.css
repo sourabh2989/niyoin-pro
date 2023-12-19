@@ -1,0 +1,113 @@
+.header{
+    background-image: url("https://www.altruistindia.com/wp-content/themes/altruist/images/intro_bg.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body{
+    background-image: url("https://www.altruistindia.com/wp-content/themes/altruist/images/intro_bg.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a.nav-link.active {
+    font-size: 15px;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #f6f8fa;
+}
+
+a.nav-link.actives {
+    font-size: 15px;
+    color: white!important;
+    /* background-color: #2191d0; */
+    margin-left: 30px;
+    width: 100px;
+    height: 47px;
+    border-radius: 11px;
+    text-align: center;
+}
+
+a.nav-link.active {
+    padding-left: 46px !important;
+}
+
+.company_logo {
+    border: 4px solid ;
+    border-radius: 20px;
+    padding: -68px;
+    position: relative;
+    height: 154px;
+    width: 230px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.company_logo:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 20px black;
+}
+
+.company_logo img {
+    margin: 4%;
+    margin-left: 56px;
+    width: 106px;
+    height: 118px;
+}
+
+.box_footer {
+    display: block;
+    position: absolute;
+    bottom: -1px;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(46, 177, 149, 0.7);
+    left: 0;
+    right: 0px;
+    color: #e9dcdc;
+    font-size: 17px;
+    padding: 5px 0;
+    transition: display 0s, opacity 0.5s linear;
+    border-radius: 0 0 10px 10px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.company_logo:hover .box_footer{
+    background-image: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(0, 184, 255) 48%, rgb(0, 212, 255) 100%);
+    opacity: 1;
+    visibility: visible;
+    color: #fff;
+    transition: ease-in-out 5ms;
+}
+
+.company_logo:hover img{
+  transform: scale(1.1)rotate(-3deg);
+}
+
+img.img-responsive1 {
+    scroll-padding-left: 41px;
+    padding-left: 38px;
+    width: 265px;
+}
+
+.footer{
+    font-size: 20px;
+    text-align: center;
+}
+
+img.navbar-bg {
+    background: white;
+    border-radius: 53%;
+    padding: 10px;
+}
+
+.parent-bg{
+    color: #f2f2f2, #fdfdfd;
+    padding: 50px;
+}
+
+
